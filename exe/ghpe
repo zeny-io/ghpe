@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'ghpe/cli'
+Ghpe::CLI.start(ARGV)

@@ -1,0 +1,28 @@
+AllCops:
+  Include:
+    - '**/Gemfile'
+    - '**/Rakefile'
+    - '**/*.rake'
+  Exclude:
+    - 'bin/**/*'
+    - 'vendor/bundle/**/*'
+  DisplayCopNames: true
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+
+Style/Documentation:
+  Enabled: false
+  Exclude:
+    - 'spec/**/*'
+    - 'test/**/*'
+    - 'lib/ghpe.rb'
+
+Metrics/LineLength:
+  Max: 180
+
+Metrics/MethodLength:
+  Max: 20
+
+Metrics/AbcSize:
+  Max: 35
